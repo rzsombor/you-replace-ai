@@ -1,8 +1,13 @@
 # You Replace AI
 
-A small Chrome extension (Manifest V3) that replaces the word **“AI”** with a
-string of your choosing on every website. Flip it on or off from the toolbar
-popup; changes apply to open tabs instantly.
+Tired of the firehose of AI news in your feed?
+
+You can now replace AI before AI replaces you! 
+
+A small Chrome extension that replaces the word **“AI”** with a string of your 
+choosing on every website.
+
+Bring you own word or use the default: "oompa loompa"
 
 <p align="center">
   <img src="icons/icon128.png" width="96" height="96" alt="You Replace AI icon" />
