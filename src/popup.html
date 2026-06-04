@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="popup.css" />
+    <title>AI Replace</title>
+  </head>
+  <body>
+    <header>
+      <h1>AI&nbsp;Replace</h1>
+      <label class="switch" title="Turn replacement on or off">
+        <input type="checkbox" id="enabled" />
+        <span class="slider" aria-hidden="true"></span>
+        <span class="switch-label" id="enabled-label">On</span>
+      </label>
+    </header>
+
+    <label class="field" for="replacement">
+      <span>Replace &ldquo;AI&rdquo; with</span>
+      <input
+        type="text"
+        id="replacement"
+        placeholder="e.g. oompa loompa"
+        autocomplete="off"
+        spellcheck="false"
+      />
+    </label>
+
+    <p class="hint" id="status">
+      Saved automatically. Changes apply to open tabs instantly.
+    </p>
+
+    <script src="popup.js"></script>
+  </body>
+</html>
