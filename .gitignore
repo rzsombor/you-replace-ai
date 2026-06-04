@@ -25,3 +25,6 @@ web-ext-artifacts/
 # Environment
 .env
 .env.*
+
+# Local Claude Code settings
+.claude/settings.local.json

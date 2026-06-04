@@ -1,4 +1,4 @@
-// AI Replace — content script
+// You Replace AI — content script
 //
 // Replaces the standalone word "AI" (any case) and its plural "AIs" with a
 // user-chosen string on every page. The original text of every node we touch

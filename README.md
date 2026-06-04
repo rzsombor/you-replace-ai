@@ -1,11 +1,11 @@
-# AI Replace
+# You Replace AI
 
 A small Chrome extension (Manifest V3) that replaces the word **“AI”** with a
 string of your choosing on every website. Flip it on or off from the toolbar
 popup; changes apply to open tabs instantly.
 
 <p align="center">
-  <img src="icons/icon128.png" width="96" height="96" alt="AI Replace icon" />
+  <img src="icons/icon128.png" width="96" height="96" alt="You Replace AI icon" />
 </p>
 
 ## Features
@@ -30,7 +30,7 @@ popup; changes apply to open tabs instantly.
 2. Toggle **Developer mode** on (top-right).
 3. Click **Load unpacked** and select this project folder (the one containing
    `manifest.json`).
-4. The **AI Replace** icon appears in the toolbar. Click it to set your
+4. The **You Replace AI** icon appears in the toolbar. Click it to set your
    replacement word and toggle it on/off.
 
 The default replacement is `oompa loompa` and the extension starts **on**.
@@ -46,7 +46,7 @@ Click the toolbar icon to open the popup:
 ## Project layout
 
 ```
-ai-replace/
+you-replace-ai/
 ├── manifest.json        # MV3 manifest: storage permission, content script, action popup
 ├── src/
 │   ├── content.js       # Finds and replaces text; observes DOM changes; reversible
@@ -82,7 +82,7 @@ reload the page you're testing.
 Zip the extension contents (not the repo metadata):
 
 ```sh
-zip -r ai-replace.zip manifest.json src icons LICENSE README.md
+zip -r you-replace-ai.zip manifest.json src icons LICENSE README.md
 ```
 
 The resulting `*.zip` is git-ignored.

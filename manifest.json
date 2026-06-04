@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "AI Replace",
+  "name": "You Replace AI",
   "version": "1.0.0",
   "description": "Replaces the word \"AI\" with text of your choosing on every website. Toggle it on or off from the toolbar.",
   "permissions": ["storage"],
@@ -11,7 +11,7 @@
     "128": "icons/icon128.png"
   },
   "action": {
-    "default_title": "AI Replace",
+    "default_title": "You Replace AI",
     "default_popup": "src/popup.html",
     "default_icon": {
       "16": "icons/icon16.png",

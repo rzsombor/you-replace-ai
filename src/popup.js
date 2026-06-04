@@ -1,4 +1,4 @@
-// AI Replace — popup logic
+// You Replace AI — popup logic
 //
 // The popup is a thin editor over chrome.storage.sync. The content script
 // watches the same storage and updates pages live, so there's nothing to
