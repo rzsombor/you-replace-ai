@@ -10,7 +10,9 @@ choosing on every website.
 Bring you own word or use the default: "oompa loompa"
 
 <p align="center">
-  <img src="icons/icon128.png" width="96" height="96" alt="You Replace AI icon" />
+  <img src="icons/example_1.png" width="640" alt="A Hacker News headline reading &quot;oompa loompa outperforms law professors in Stanford Law study&quot;" />
+  <br />
+  <img src="icons/example_2.png" width="640" alt="A Hacker News headline reading &quot;Uber's $1,500/month oompa loompa limit is a useful signal for oompa loompa tool pricing&quot;" />
 </p>
 
 ## Features
